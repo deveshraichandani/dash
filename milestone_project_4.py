@@ -68,7 +68,7 @@ def update_graph(inputVal,start_date,end_date):
         return figure
 
     except Exception :
-        return dash.no_update
+        return Exception
 
 
 

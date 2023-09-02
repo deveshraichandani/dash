@@ -5,7 +5,7 @@ from dash import Input,Output
 import plotly.graph_objs as go
 import pandas as pd
 
-app = dash.Dash()
+app = dash.Dash(__name__)
 
 app.layout = html.Div([
                 html.H1("Stock Ticker Dashboard"),

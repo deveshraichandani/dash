@@ -31,11 +31,11 @@ app.layout = html.Div([
                 dcc.Graph(id = "lineGraph",
                           figure={
                               'data' : [go.Scatter(
-                                  x =  [0,1,2],
+                                  x =  [0,1,5],
                                   y =  [4,2,6])
                                   ],
                                   
-                              'layout' : go.Layout(title="graph")
+                              'layout' : go.Layout(title="Graph")
                           })
 
     ])
@@ -48,12 +48,12 @@ app.layout = html.Div([
      Input(component_id="datePicker",component_property="end_date")
     ]
 )
-def update_graph(inputVal,start_date,end_date):
+def update_graph(inputValue,start_date,end_date):
     try:
         start = datetime.strptime(start_date[:10],"%Y-%d-%m")
         end = datetime.strptime(end_date[:10],"%Y-%d-%m")
         
-        df = web.DataReader(inputVal,'iex',start,end,api_key = 'pk_7043bd6b931949f49fead7e39b17e03e')
+        df = web.DataReader(inputValue,'iex',start,end,api_key = 'pk_7043bd6b931949f49fead7e39b17e03e')
 
         figure={
             'data' : [go.Scatter(
@@ -61,7 +61,7 @@ def update_graph(inputVal,start_date,end_date):
                 y =  df['close'])
                 ],
                 
-            'layout' : go.Layout(title=inputVal)
+            'layout' : go.Layout(title=inputValue)
             
         }    
        

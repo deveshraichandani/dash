@@ -9,7 +9,7 @@ data = [go.Scatter(x = df["model_year"],
                    text = df["name"],
                    mode = "markers",
                    marker = dict(
-                      size = (df["displacement"]/10),
+                      size = (df["displacement"]/10.5),
                       
                       color = df["displacement"],
                       showscale = True, 

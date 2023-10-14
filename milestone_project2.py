@@ -16,7 +16,7 @@ app.layout = html.Div([
                 dcc.Graph(id = "lineGraph",
                           figure={
                               'data' : [go.Scatter(
-                                  x =  [0,1,2],
+                                  x =  [0,1,7],
                                   y =  [4,2,6])
                                   ],
                                   

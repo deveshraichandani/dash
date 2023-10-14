@@ -36,7 +36,7 @@ def update_graph(Selected_Year):
                                  opacity=0.7,
                                  mode="markers",
                                  marker = dict(
-                                 size = 15
+                                 size = 14
                                  ),
                                  text = df_by_year['country']
                                 )

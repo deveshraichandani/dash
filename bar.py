@@ -10,7 +10,7 @@ trace1 = go.Bar(x = df["Name of Coun."],
                 
 trace2 = go.Bar(x = df["NOC"],
                 y = df["Silver"],
-                name = "silver medals",
+                name = "silver-medals",
                 marker=dict(color = "#B2B9AE"))
 
 trace3 = go.Bar(x = df["NOC"],
@@ -20,7 +20,7 @@ trace3 = go.Bar(x = df["NOC"],
 
 data = [trace1,trace2,trace3]
 
-layout = go.Layout(title = "Medal Count By Country Name",
+layout = go.Layout(title = "Medal-Count By Country Name",
                    title_x = 0.5, barmode="stack")
 
 fig = go.Figure(data = data, layout = layout)

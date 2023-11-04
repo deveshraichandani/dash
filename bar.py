@@ -15,7 +15,7 @@ trace2 = go.Bar(x = df["NOC"],
 
 trace3 = go.Bar(x = df["NOC"],
                 y = df["Bronze"],
-                name = "bronze-medals",
+                name = "bronze medals",
                 marker={"color" : "#8F6409"})
 
 data = [trace1,trace2,trace3]

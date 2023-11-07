@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 df = pd.read_csv("data/2018WinterOlympics.csv")
-trace1 = go.Bar(x = df["Name of Coun."],
+trace1 = go.Bar(x = df["Name of Counry"],
                 y = df["Gold"],
                 name = "gold medals",
                 marker = {"color" :"#FFD700"})

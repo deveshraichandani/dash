@@ -10,6 +10,6 @@ data = [go.Bar(x = df[response],
                orientation="h") 
                for response in df.columns]
 
-layout = go.Layout(title="Mock-Survery", title_x = 0.5, barmode="stack")
+layout = go.Layout(title="Mock-Survey", title_x = 0.5, barmode="stack")
 fig = go.Figure(data = data, layout = layout,)
 pyo.plot(fig, filename="mock survey.html")

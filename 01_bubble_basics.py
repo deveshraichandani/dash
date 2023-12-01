@@ -21,7 +21,7 @@ data = [
 
 # Create the layout
 layout = go.Layout(
-  title = "Bubble-chart"
+  title = "Bubble Chart"
 )
 
 # Build the figure

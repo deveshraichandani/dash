@@ -12,4 +12,4 @@ data = [go.Bar(x = df[response],
 
 layout = go.Layout(title="Mock-Survey", title_x = 0.5, barmode="stack")
 fig = go.Figure(data = data, layout = layout,)
-pyo.plot(fig, filename="mock survey.html")
+pyo.plot(fig, filename="mock-survey.html")

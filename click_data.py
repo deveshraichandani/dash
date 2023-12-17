@@ -22,7 +22,7 @@ app.layout = html.Div([
                                                                      mode = "markers",
                                                                      dy = 1,
                                                                     marker = {
-                                                                        'size' : 16 }
+                                                                        'size' : 17 }
                                                                     )
                                                             ],
                                                 'layout' : go.Layout(title="Hello")}

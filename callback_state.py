@@ -11,7 +11,7 @@ app.layout = html.Div([
     html.Button(id = "submit-button",
                 n_clicks=0,
                 children=["Submit"],
-                style={"fontSize" : 24}),
+                style={"fontSize" : 22}),
 
     html.H1(id = "outputNum")
 ])

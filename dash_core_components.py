@@ -6,7 +6,7 @@ app = dash.Dash()
 app.layout = html.Div([
                        html.Label("Dropdown"),
                        dcc.Dropdown(options=[{
-                           "label" : "New-Del",
+                           "label" : "New Del",
                            "value" : "ND"},
                            {"label" : "Tamil Nadu",
                             "value" : 'TD'}

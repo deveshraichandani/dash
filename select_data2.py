@@ -28,7 +28,7 @@ app.layout = html.Div([
             'data' : [go.Scatter(x=df['x'],
                                 y=df['y'],
                                 mode = "markers")],
-            'layout' : go.Layout(title="Scatter-Plot")                    
+            'layout' : go.Layout(title="Scatter Plot")                    
         }
         
         )

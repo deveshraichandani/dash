@@ -35,7 +35,7 @@ app.layout = html.Div([
     ],style={'width' : '30%', 'display' : 'inline-block'}
     ),
     html.Div([
-        html.H1(id="density",style={"paddingTop" : 35,})
+        html.H1(id="density",style={"paddingTop" : 34,})
         ],
         style={"width" : '30%',
                "display" : "inline-block",

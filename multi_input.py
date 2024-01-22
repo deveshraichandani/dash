@@ -45,7 +45,7 @@ def graph_update(xaxis_name,yaxis_name):
                                  text = df["name"],
                                  )
                         ],
-            'layout' : go.Layout(title = "Dashboard for all Car's MPG",
+            'layout' : go.Layout(title = "Dashboard for Car's MPG",
                                  xaxis = {'title' : xaxis_name},
                                  yaxis = {'title' : yaxis_name}
                                 )

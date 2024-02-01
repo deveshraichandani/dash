@@ -71,4 +71,4 @@ def output_image(no_of_wheels,color_of_vehicle):
 # print(df[(df['wheels'] == 1) & (df['color'] == 'blue')]['image'])
 
 if __name__ == '__main__':
-    app.run_server(debug = True,port = 8051)
+    app.run_server(debug = True,port = 8052)

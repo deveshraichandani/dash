@@ -31,7 +31,7 @@ app.layout = html.Div([
                              
                     html.Div(html.Pre(
                         id = "selection",
-                        style={'paddingTop' : 34}),
+                        style={'paddingTop' : 32}),
                     
                     style={'width' : '30%'})
                         

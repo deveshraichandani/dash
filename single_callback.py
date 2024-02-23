@@ -1,7 +1,8 @@
 import dash
 from dash import dcc
 from dash import html
-from dash import Input,Output
+from dash import Input
+from dash import Output
 
 app = dash.Dash()
 

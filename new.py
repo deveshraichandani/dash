@@ -9,7 +9,7 @@ app.layout = html.Div(children=[
     html.Div(children = ["Dashboard hello there !! how you doin",html.H2("hello bye-bye")]) ,
     html.Div("Dashboard hello there !! how you doin'") ,
     html.Div("Dashboard hello there !! how you doin'") ,
-    html.Div("Dashboard hello there !! how you doing'") ,
+    html.Div("Dashboard hello there !! how you doin'") ,
     dcc.Graph (id="Example Graph",
                figure = {'data' : 
                         [{'x' : [1,2,3] ,'y' : [4,2,3],'type' : 'bar', 'name' : 'N.Delhi'},

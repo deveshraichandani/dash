@@ -13,7 +13,7 @@ app.layout = html.Div(children=[
     dcc.Graph (id="Example Graph",
                figure = {'data' : 
                         [{'x' : [1,2,3] ,'y' : [4,2,3],'type' : 'bar', 'name' : 'New Delhi'},
-                         {'x' : [1,2,3] ,'y' : [2,4,1],'type' : 'bar', 'name' : 'N.York'}],
+                         {'x' : [1,2,3] ,'y' : [2,4,1],'type' : 'bar', 'name' : 'New York'}],
                          "layout": 
                          {'title' : "Bar plots!!!"}})
 ]) 

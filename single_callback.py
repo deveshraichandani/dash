@@ -15,7 +15,7 @@ app.layout = html.Div([
                                              fontSize = "2rem")),
                         html.Div(id="my-div",
                                  children = ["Hello\t","Yo"],
-                                 style={"border" : "2px solid grey"})
+                                 style={"border" : "3px solid grey"})
 ])
 
 @app.callback(

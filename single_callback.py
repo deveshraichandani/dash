@@ -23,7 +23,7 @@ app.layout = html.Div([
         Input(component_id="inpId",component_property='value')
 )
 def update_output_div(input_val):
-    return "Text Entered is : {}".format(input_val)
+    return "Text Entered is this : {}".format(input_val)
 
 if __name__ == "__main__":
     app.run_server(debug = True)

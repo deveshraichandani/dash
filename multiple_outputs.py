@@ -34,7 +34,7 @@ app.layout = html.Div([
                        html.Img(id = "image",height=300,style={'display': 'block',
                                                                'margin-left': 'auto',
                                                                'margin-right': 'auto',
-                                                               'padding' : 99
+                                                               'padding' : 100
                                                                })    
                         
                     

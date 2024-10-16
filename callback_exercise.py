@@ -16,6 +16,7 @@ app.layout = html.Div([
     Input(component_id="rangeSlider",component_property="value")
 )
 def output_mult(value_array):
+    print(value_array)
     return value_array[0] * value_array[1]
 
 if __name__ == '__main__':
